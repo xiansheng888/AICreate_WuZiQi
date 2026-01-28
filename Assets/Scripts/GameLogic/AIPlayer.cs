@@ -12,7 +12,6 @@ namespace Gomoku.GameLogic
         [SerializeField] private PieceType aiPieceType = PieceType.White;
         [SerializeField] private AIDifficulty difficulty = AIDifficulty.Medium;
         [SerializeField] private float thinkTime = 1.0f;
-        [SerializeField] private bool useMinimax = true;
         
         [Header("组件引用")]
         [SerializeField] private BoardManager boardManager;
