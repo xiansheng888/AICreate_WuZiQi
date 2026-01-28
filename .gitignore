@@ -1,0 +1,69 @@
+# Unity 项目标准忽略文件
+# 基于 Unity 官方推荐和社区最佳实践
+
+# 临时文件和构建产物
+/[Tt]emp/
+/[Bb]uild/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# Unity 自动生成的文件夹
+/[Ll]ibrary/
+/[Oo]bj/
+/[Mm]emoryCaptures/
+
+# 自动生成的 Visual Studio / MonoDevelop 文件
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+
+# Unity3D 生成的 meta 文件（但 Assets 和 ProjectSettings 中的需要保留）
+# 注意：Assets 和 ProjectSettings 目录下的 .meta 文件不应被忽略
+
+# Visual Studio 目录
+.vs/
+.vscode/
+
+# Rider 目录
+.idea/
+
+# OS 生成的文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 项目特定忽略
+# 如果有自定义的忽略规则，可以在这里添加
+.vsconfig
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tga
+*.ico
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+
+# 保留 Assets 和 ProjectSettings 目录
+!Assets/
+!ProjectSettings/
+!Packages/
